@@ -1,0 +1,32 @@
+body {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.sketchPad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* 16 x 60px */
+    height: 960px; /* 16 x 60px */
+    outline: 2px solid #212121;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px;
+}
+
+.square {
+    width: 60px; /* Adjust for grid size */
+    height: 60px; /* Adjust for grid size */
+    outline: 1px solid #36454F;
+    transition: background-color 0.3s ease;
+}
+
+.childDivColor {
+    background-color: black;
+}
